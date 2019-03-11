@@ -15,4 +15,5 @@
    community version: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15
 ## Nice to have / optional
 8. install BeyondCompare -> http://www.scootersoftware.com/BCompare-4.2.9.23626.exe
-9. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download
+9. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
+   install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
