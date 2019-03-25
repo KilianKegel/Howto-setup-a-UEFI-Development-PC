@@ -23,3 +23,4 @@
   ii.install Ubuntu 18.4: https://aka.ms/wsl-ubuntu-1804<br>
   iii. run in the linux shell: sudo apt update<br>
   iv.  run in the linux shell: sudo apt install gcc<br>
+11. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
