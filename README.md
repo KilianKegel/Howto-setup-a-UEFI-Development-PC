@@ -2,8 +2,8 @@
 
 1. install a Windows 10 64 PC<br>
    i.  get MediaCreationTool https://go.microsoft.com/fwlink/?LinkId=691209 and download Win10 1809<br>
-2. install GIT: https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.exe
-3. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.7.0.0/TortoiseGit-2.7.0.0-64bit.msi
+2. install GIT: https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-64-bit.exe
+3. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.7.0.0/TortoiseGit-2.8.0.0-64bit.msi
 4. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
 5. install Python ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi
 6. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
