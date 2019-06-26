@@ -16,12 +16,15 @@
    community version: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15
 ## Nice to have / optional
 8. install BeyondCompare -> http://www.scootersoftware.com/BCompare-4.2.9.23626.exe
-9. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
+9. install compression tools
+   i. WinRar -> https://www.rarlab.com/rar/winrar-x64-571.exe
+   ii. 7Zip -> https://www.7-zip.org/a/7z1900-x64.exe
+10. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
-10. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.7031-x64.exe
-11. install Windows Subsystem for Linux WSL:<br>
+11. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.7031-x64.exe
+12. install Windows Subsystem for Linux WSL:<br>
   i. run PowerShell (as administrator): Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>
   ii.install Ubuntu 18.4: https://aka.ms/wsl-ubuntu-1804<br>
   iii. run in the linux shell: sudo apt update<br>
   iv.  run in the linux shell: sudo apt install gcc<br>
-12. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
+13. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
