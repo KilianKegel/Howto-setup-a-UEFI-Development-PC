@@ -9,11 +9,9 @@
 6. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
-7. install Visual Studio 2017
-
-   choose version: https://visualstudio.microsoft.com/downloads/
-
-   community version: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15
+7. install Visual Studio<br>
+   i.  VS2019: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15<br>
+   ii. VS2017: [VS2017 setup](https://github.com/MinnowWare/HowTo-setup-an-UEFI-Development-PC/blob/master/vs_community__143740529.1515244701.exe)<br>
 ## Nice to have / optional
 8. install BeyondCompare -> http://www.scootersoftware.com/BCompare-4.2.9.23626.exe
 9. install compression tools<br>
