@@ -19,7 +19,7 @@
    ii. 7Zip -> https://www.7-zip.org/a/7z1900-x64.exe<br>
 10. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
-11. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.7031-x64.exe
+11. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.7100-x64.exe 
 12. install Windows Subsystem for Linux WSL:<br>
   i. run PowerShell (as administrator): Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>
   ii.install Ubuntu 18.4: https://aka.ms/wsl-ubuntu-1804<br>
