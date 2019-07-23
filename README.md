@@ -13,7 +13,20 @@
    i.  VS2019: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15<br>
    ii. VS2017: [VS2017 setup](https://github.com/MinnowWare/HowTo-setup-an-UEFI-Development-PC/blob/master/vs_community__143740529.1515244701.exe)<br>
 ## Nice to have / optional
-8. install BeyondCompare -> http://www.scootersoftware.com/BCompare-4.2.9.23626.exe
+8. install BeyondCompare -> http://www.scootersoftware.com/BCompare-4.2.9.23626.exe<br>
+   i. add to `%USERPROFILE%\.gitconfig`<br>
+   `[diff]`<br>
+	`  tool = bc4`<br>
+   `[difftool "bc4"]`<br>
+	   `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\"`<br>
+   `[difftool]`<br>
+	   `  prompt = false`<br>
+   `[merge]`<br>
+	   `  tool = bc4`<br>
+   `[mergetool "bc4"]`<br>
+	   `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"`<br>
+	   `  trustExitCode = true`<br>
+
 9. install compression tools<br>
    i. WinRar -> https://www.rarlab.com/rar/winrar-x64-571.exe<br>
    ii. 7Zip -> https://www.7-zip.org/a/7z1900-x64.exe<br>
