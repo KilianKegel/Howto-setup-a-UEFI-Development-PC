@@ -26,16 +26,16 @@
    `[mergetool "bc4"]`<br>
 	   `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"`<br>
 	   `  trustExitCode = true`<br>
-
-9. install compression tools<br>
+10. install Acrobat Reader DC (offline) -> ftp://ftp.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220040/AcroRdrDCUpd1901220040.msp
+11. install compression tools<br>
    i. WinRar -> https://www.rarlab.com/rar/winrar-x64-571.exe<br>
    ii. 7Zip -> https://www.7-zip.org/a/7z1900-x64.exe<br>
-10. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
+12. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
-11. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.7100-x64.exe 
-12. install Windows Subsystem for Linux WSL:<br>
+13. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.7100-x64.exe 
+14. install Windows Subsystem for Linux WSL:<br>
   i. run PowerShell (as administrator): Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>
   ii.install Ubuntu 18.4: https://aka.ms/wsl-ubuntu-1804<br>
   iii. run in the linux shell: sudo apt update<br>
   iv.  run in the linux shell: sudo apt install gcc<br>
-13. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
+15. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
