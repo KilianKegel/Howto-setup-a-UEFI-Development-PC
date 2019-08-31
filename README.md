@@ -2,7 +2,7 @@
 
 1. install a Windows 10 64 PC<br>
    i.  get MediaCreationTool https://go.microsoft.com/fwlink/?LinkId=691209 and download Win10 1903<br>
-2. install GIT: https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-64-bit.exe
+2. install GIT: https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe
 3. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.8.0.0/TortoiseGit-2.8.0.0-64bit.msi
 4. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
 5. install Python ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi
@@ -11,6 +11,7 @@
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
 7. install Visual Studio<br>
    i.  VS2019: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15<br>
+   	or<br>
    ii. VS2017: [VS2017 setup](https://github.com/MinnowWare/HowTo-setup-an-UEFI-Development-PC/blob/master/vs_community__143740529.1515244701.exe)<br>
 ## Nice to have / optional
 8. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.2.10.23938.exe<br>
