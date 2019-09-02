@@ -14,6 +14,7 @@
    i.  VS2019: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15<br>
    	or<br>
    ii. VS2017: [VS2017 setup](https://github.com/MinnowWare/HowTo-setup-an-UEFI-Development-PC/blob/master/vs_community__143740529.1515244701.exe)<br>
+   ![installselection2017](VS2017-components.png)
 ## Nice to have / optional
 8. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.2.10.23938.exe<br>
    i. add to `%USERPROFILE%\.gitconfig`<br>
