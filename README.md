@@ -11,7 +11,7 @@
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
 7. install Visual Studio<br>
-   i.  VS2019: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15<br>
+   i.  VS2019: https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes<br>
    ![installselection2019](VS2019-components.png)
    	or<br>
    ii. VS2017: https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes<br>
