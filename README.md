@@ -9,8 +9,8 @@
 5. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
-6. install Visual Studio<br>
-   i.  VS2019: https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes<br>
+6. install Visual Studio 2019<br>
+   https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes<br>
    ![installselection2019](VS2019-components.png)
 7. install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
 **Windows 8.1 SDK** is provided in the Microsoft SDK archive at:<br> https://developer.microsoft.com/en-us/windows/downloads/sdk-archive, <br>or direct link: <br>
