@@ -5,7 +5,9 @@
 2. install GIT: https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe<br>
    NOTE: update to *GIT v2.23* because of [fixed submodule issue](https://github.com/git/git/blob/v2.23.0/Documentation/RelNotes/2.23.0.txt)
 3. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
-4. install Python ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi
+4. install Python<br>
+   i. for old build process: ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi<br>
+   ii.for new build process: ver 3.7 https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe<br>
 5. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
