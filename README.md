@@ -4,20 +4,23 @@
    i.  get MediaCreationTool https://go.microsoft.com/fwlink/?LinkId=691209 and download Win10 1903<br>
 2. install GIT: https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe<br>
    NOTE: update to *GIT v2.23* because of [fixed submodule issue](https://github.com/git/git/blob/v2.23.0/Documentation/RelNotes/2.23.0.txt)
-3. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.8.0.0/TortoiseGit-2.8.0.0-64bit.msi
-4. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
-5. install Python ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi
-6. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
+3. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
+4. install Python ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi
+5. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
-7. install Visual Studio<br>
+6. install Visual Studio<br>
    i.  VS2019: https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes<br>
    ![installselection2019](VS2019-components.png)
-   	or<br>
-   ii. VS2017: https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2017-relnotes<br>
-    ![installselection2017](VS2017-components.png)
+7. install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
+**Windows 8.1 SDK** is provided in the Microsoft SDK archive at:<br> https://developer.microsoft.com/en-us/windows/downloads/sdk-archive, <br>or direct link: <br>
+https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
+   NOTE: **Windows 8.1 SDK** is removed from VS2019, but still available with VS2017. VS2017 itself is not available
+   anymore for free.
+   
 ## Nice to have / optional
-8. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.2.10.23938.exe<br>
+8. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.8.0.0/TortoiseGit-2.8.0.0-64bit.msi
+9. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.2.10.23938.exe<br>
    i. add to `%USERPROFILE%\.gitconfig`<br>
    `[diff]`<br>
 	`  tool = bc4`<br>
