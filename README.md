@@ -36,7 +36,7 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    `[mergetool "bc4"]`<br>
 	   `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"`<br>
 	   `  trustExitCode = true`<br>
-10. install Acrobat Reader DC (offline) -> ftp://ftp.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220040/AcroRdrDCUpd1901220040.msp<br>
+10. install Acrobat Reader DC (offline) -> https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220040/AcroRdrDCUpd1901220040.msp<br>
 11. install compression tools<br>
    i. WinRar -> https://www.rarlab.com/rar/winrar-x64-571.exe<br>
    ii. 7Zip -> https://www.7-zip.org/a/7z1900-x64.exe<br>
