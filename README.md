@@ -46,10 +46,11 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
 15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.7219-x64.exe 
 16. install Windows Subsystem for Linux WSL:<br>
-  i. run PowerShell (as administrator): Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>
-  ii.install Ubuntu 18.4: https://aka.ms/wsl-ubuntu-1804<br>
-  iii. run in the linux shell: sudo apt update<br>
-  iv.  run in the linux shell: sudo apt install gcc<br>
+  1. run PowerShell (as administrator): Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>
+  2.install Ubuntu 18.4: https://aka.ms/wsl-ubuntu-1804<br>
+  3. run in the linux shell: sudo apt update<br>
+  4. run in the linux shell: sudo apt install gcc<br>
+  5. run in the linux shell: sudo apt install gdb<br>
 17. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
 
 ### vintage DDK
