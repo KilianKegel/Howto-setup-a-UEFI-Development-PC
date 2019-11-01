@@ -51,6 +51,7 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 	3. run in the linux shell: sudo apt update<br>	
 	4. run in the linux shell: sudo apt install gcc<br>	
 	5. run in the linux shell: sudo apt install gdb<br>	
+	5. run in the linux shell: sudo apt install glibc-source<br>	
 17. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
 
 ### vintage DDK
