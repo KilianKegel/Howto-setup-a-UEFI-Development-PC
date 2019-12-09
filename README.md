@@ -44,7 +44,7 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 13. install TeraTerm -> https://ttssh2.osdn.jp/index.html.en<br>
 14. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
-15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-2.9.7219-x64.exe 
+15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
 16. install Windows Subsystem for Linux WSL:<br>
 	1. run PowerShell (as administrator): Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>	
 	2. install Ubuntu 18.4: https://aka.ms/wsl-ubuntu-1804<br>	
