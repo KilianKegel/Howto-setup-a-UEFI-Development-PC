@@ -2,19 +2,23 @@
 
 1. install a Windows 10 64 PC<br>
    i.  get MediaCreationTool https://go.microsoft.com/fwlink/?LinkId=691209 and download Win10 1903<br>
-2. install GIT: https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe<br>
+2. install Visual Studio 2019<br>
+   https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes<br>
+   ![installselection2019](VS2019-components.png)
+   
+   **NOTE: For [Visual-Studio-for-UEFI-Shell](https://github.com/KilianKegel/Visual-Studio-for-UEFI-Shell)-only development you can stop the installation here**
+   
+3. install GIT: https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe<br>
    NOTE: update to *GIT v2.23* because of [fixed submodule issue](https://github.com/git/git/blob/v2.23.0/Documentation/RelNotes/2.23.0.txt)
-3. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
-4. install Python<br>
+4. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
+5. install Python<br>
    i. for old build process: ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi<br>
    ii.for new build process: ver 3.7 https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe<br>
    NOTE: If Python is installed from the Microsoft AppStore it can not be de-installed anymore!
-5. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
+6. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
-6. install Visual Studio 2019<br>
-   https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes<br>
-   ![installselection2019](VS2019-components.png)
+   
 7. install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
 **Windows 8.1 SDK** is provided in the Microsoft SDK archive at:<br> https://developer.microsoft.com/en-us/windows/downloads/sdk-archive, <br>or direct link: <br>
 https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
@@ -52,7 +56,7 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 	4. run in the linux shell: sudo apt install gcc<br>	
 	5. run in the linux shell: sudo apt install gdb<br>	
 	5. run in the linux shell: sudo apt install glibc-source<br>	
-17. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
+18. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
 
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
