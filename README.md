@@ -8,7 +8,7 @@
    
    **NOTE: For [Visual-Studio-for-UEFI-Shell](https://github.com/KilianKegel/Visual-Studio-for-UEFI-Shell)-only development you can stop the installation here**
    
-3. install GIT: https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe<br>
+3. install GIT: https://github.com/git-for-windows/git/releases/download/v2.26.0.windows.1/Git-2.26.0-64-bit.exe<br>
    NOTE: update to *GIT v2.23* because of [fixed submodule issue](https://github.com/git/git/blob/v2.23.0/Documentation/RelNotes/2.23.0.txt)
 4. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
 5. install Python<br>
