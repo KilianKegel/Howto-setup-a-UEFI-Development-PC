@@ -26,7 +26,7 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    
 ## Nice to have / optional
 8. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.0-64bit.msi
-9. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.2.10.23938.exe<br>
+9. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.3.4.24657<br>
    i. add to `%USERPROFILE%\.gitconfig`<br>
    `[diff]`<br>
 	`  tool = bc4`<br>
