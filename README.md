@@ -26,19 +26,19 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    
 ## Nice to have / optional
 8. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.0-64bit.msi
-9. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.3.4.24657.exe<br>
-   i. add to `%USERPROFILE%\.gitconfig`<br>
-   `[diff]`<br>
-	`  tool = bc4`<br>
-   `[difftool "bc4"]`<br>
-	   `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\"`<br>
-   `[difftool]`<br>
-	   `  prompt = false`<br>
-   `[merge]`<br>
-	   `  tool = bc4`<br>
-   `[mergetool "bc4"]`<br>
-	   `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"`<br>
-	   `  trustExitCode = true`<br>
+   add to `%USERPROFILE%\.gitconfig`:<br>
+   	* `[diff]`<br>
+	* `  tool = bc4`<br>
+   	* `[difftool "bc4"]`<br>
+	* `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\"`<br>
+   	* `[difftool]`<br>
+	* `  prompt = false`<br>
+   	* `[merge]`<br>
+	* `  tool = bc4`<br>
+   	* `[mergetool "bc4"]`<br>
+	* `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"`<br>
+	* `  trustExitCode = true`<br>9. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.3.4.24657.exe<br>
+
 10. install Acrobat Reader DC  -> https://get.adobe.com/reader/otherversions/<br>
 11. install compression tools<br>
    i. WinRar -> https://www.rarlab.com/rar/winrar-x64-571.exe<br>
