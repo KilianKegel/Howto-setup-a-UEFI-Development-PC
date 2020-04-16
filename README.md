@@ -56,6 +56,8 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 	5. run in the linux shell: sudo apt install gdb<br>	
 	5. run in the linux shell: sudo apt install glibc-source<br>	
 18. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
+19. install yED https://www.yworks.com/products/yed/download
+20. install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
 
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
