@@ -49,12 +49,7 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
 15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
 16. install Windows Subsystem for Linux WSL:<br>
-	1. run PowerShell (as administrator): Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>	
-	2. install Ubuntu 18.4: https://aka.ms/wsl-ubuntu-1804<br>	
-	3. run in the linux shell: sudo apt update<br>	
-	4. run in the linux shell: sudo apt install gcc<br>	
-	5. run in the linux shell: sudo apt install gdb<br>	
-	5. run in the linux shell: sudo apt install glibc-source<br>	
+	https://docs.microsoft.com/en-us/windows/wsl/install-win10
 18. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
 19. install yED https://www.yworks.com/products/yed/download
 20. install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
