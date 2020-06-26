@@ -1,7 +1,7 @@
 # HowTo-setup-an-UEFI-Development-PC
 
 1. install a Windows 10 64 PC<br>
-   i.  get MediaCreationTool https://go.microsoft.com/fwlink/?LinkId=691209 and download Win10 1909<br>
+   i.  get `MediaCreationTool2004.exe` https://go.microsoft.com/fwlink/?LinkId=691209 and download Win10 2004<br>
 2. install Visual Studio 2019<br>
    https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes<br>
    ![installselection2019](VS2019-components.png)
