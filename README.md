@@ -50,6 +50,10 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
 16. install Windows Subsystem for Linux WSL2 / Ubuntu 20.04:<br>
 	https://docs.microsoft.com/en-us/windows/wsl/install-win10
+	
+	**NOTE: in order to start WSL2 you have to run as an admnistrator:**
+	`bcdedit /set hypervisorlaunchtype auto`
+
 18. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
 19. install yED https://www.yworks.com/products/yed/download
 20. install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
