@@ -55,6 +55,7 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 20. install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
 21. install YOCTO project in WSL / Ubuntu 20.04
 	* **`sudo apt update`** <-- this command is urgently required
+	
 	* `sudo apt-get install gawk`
 	* `sudo apt-get install wget`
 	* `sudo apt-get install git-core`
@@ -79,6 +80,7 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 	* `sudo apt-get install libsdl1.2-dev`
 	* `sudo apt-get install pylint3`
 	* `sudo apt-get install xterm`
+	* `sudo apt install chrpath`
 	
 	https://www.yoctoproject.org/docs/3.1.1/brief-yoctoprojectqs/brief-yoctoprojectqs.html
 	
