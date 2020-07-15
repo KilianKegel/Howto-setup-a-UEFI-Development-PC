@@ -57,38 +57,6 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 18. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
 19. install yED https://www.yworks.com/products/yed/download
 20. install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
-21. install YOCTO project in WSL / Ubuntu 20.04
-	* **`sudo apt update`** <-- this command is urgently required
-	
-	* `sudo apt-get install gawk`
-	* `sudo apt-get install wget`
-	* `sudo apt-get install git-core`
-	* `sudo apt-get install diffstat`
-	* `sudo apt-get install unzip`
-	* `sudo apt-get install texinfo `
-	* `sudo apt-get install install-info info`
-	* `sudo apt-get install gcc-multilib`
-	* `sudo apt-get install build-essential`
-	* `sudo apt-get install chrpath`
-	* `sudo apt-get install socat`
-	* `sudo apt-get install cpio`
-	* `sudo apt-get install python3`
-	* `sudo apt-get install python3-pip`
-	* `sudo apt-get install python3-pexpect`
-	* `sudo apt-get install xz-utils`
-	* `sudo apt-get install debianutils`
-	* `sudo apt-get install iputils-ping`
-	* `sudo apt-get install python3-git`
-	* `sudo apt-get install python3-jinja2`
-	* `sudo apt-get install libegl1-mesa`
-	* `sudo apt-get install libsdl1.2-dev`
-	* `sudo apt-get install pylint3`
-	* `sudo apt-get install xterm`
-	* `sudo apt install chrpath`
-	
-	https://www.yoctoproject.org/docs/3.1.1/brief-yoctoprojectqs/brief-yoctoprojectqs.html
-	
-
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
 * WDK 7.1.0: http://download.microsoft.com/download/4/a/2/4a25c7d5-efbe-4182-b6a9-ae6850409a78/grmwdk_en_7600_1.iso <br>
