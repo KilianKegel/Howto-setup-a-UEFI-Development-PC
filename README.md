@@ -27,18 +27,18 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 ## Nice to have / optional
 #### 8. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.3.6.25063.exe<br>
 #### 9. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.10.0.0/TortoiseGit-2.10.0.0-64bit.msi
-   add to `%USERPROFILE%\.gitconfig`:<br>
-   	* `[diff]`<br>
-	* `  tool = bc4`<br>
-   	* `[difftool "bc4"]`<br>
-	* `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\"`<br>
-   	* `[difftool]`<br>
-	* `  prompt = false`<br>
-   	* `[merge]`<br>
-	* `  tool = bc4`<br>
-   	* `[mergetool "bc4"]`<br>
-	* `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"`<br>
-	* `  trustExitCode = true`<br>
+add to `%USERPROFILE%\.gitconfig`:<br>
+* `[diff]`<br>
+* `  tool = bc4`<br>
+* `[difftool "bc4"]`<br>
+* `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\"`<br>
+* `[difftool]`<br>
+* `  prompt = false`<br>
+* `[merge]`<br>
+* `  tool = bc4`<br>
+* `[mergetool "bc4"]`<br>
+* `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"`<br>
+* `  trustExitCode = true`<br>
 #### 10. install Acrobat Reader DC  -> https://get.adobe.com/reader/otherversions/<br>
 #### 11. install compression tools<br>
    i. WinRar -> https://www.rarlab.com/rar/winrar-x64-571.exe<br>
@@ -49,15 +49,16 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
 #### 15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
 #### 16. install Windows Subsystem for Linux WSL2 / Ubuntu 20.04:<br>
-	https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
 	
-	**NOTE: in order to start WSL2 you have to run as an admnistrator:**
-	`bcdedit /set hypervisorlaunchtype auto`
+**NOTE: in order to start WSL2 you have to run as an admnistrator:**
+`bcdedit /set hypervisorlaunchtype auto`
 	
-	* download install script:<br>
-     		`wget https://raw.githubusercontent.com/KilianKegel/HowTo-setup-a-YOCTO-Development-PC/master/install.sh`
-   	* set x attribute: `chmod +x install.sh`
-   	* run `./install.sh`
+* download install script:<br>
+  `wget https://raw.githubusercontent.com/KilianKegel/HowTo-setup-a-YOCTO-Development-PC/master/install.sh`
+* set x attribute: `chmod +x install.sh`
+* run `./install.sh`
 	
 #### 18. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
 #### 19. install yED https://www.yworks.com/products/yed/download
