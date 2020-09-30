@@ -53,6 +53,8 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 	
 	**NOTE: in order to start WSL2 you have to run as an admnistrator:**
 	`bcdedit /set hypervisorlaunchtype auto`
+	
+	* [install WSL2 VM](https://github.com/KilianKegel/HowTo-setup-a-YOCTO-Development-PC/blob/master/README.md#4-install-yocto-project-in-wsl--ubuntu-2004)
 
 18. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
 19. install yED https://www.yworks.com/products/yed/download
