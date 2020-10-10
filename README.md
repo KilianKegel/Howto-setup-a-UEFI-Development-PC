@@ -48,11 +48,15 @@ add to `%USERPROFILE%\.gitconfig`:<br>
 #### 14. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
 #### 15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
-#### 16. install Windows Subsystem for Linux WSL2 / Ubuntu 20.04:<br>
+#### 16. install Windows Subsystem for Linux WSL2 / Ubuntu 20.04
+
+**NOTE: In order to run WSL2 on a HYPER-V virtual machine, enable Nested Virtualization: **
+
+* run PowerShell as administrator: `Set-VMProcessor <VIRTUALMACHINENAME> -ExposeVirtualizationExtensions $true`
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 	
-**NOTE: in order to start WSL2 you have to run as an admnistrator:**
+**NOTE: In order to start WSL2 you have to run as an admnistrator:**
 `bcdedit /set hypervisorlaunchtype auto`
 	
 * download install script:<br>
