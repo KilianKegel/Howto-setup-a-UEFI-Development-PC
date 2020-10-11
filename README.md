@@ -50,7 +50,7 @@ add to `%USERPROFILE%\.gitconfig`:<br>
 #### 15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
 #### 16. install Windows Subsystem for Linux WSL2 / Ubuntu 20.04
 
-**NOTE: In order to run WSL2 on a HYPER-V virtual machine, enable Nested Virtualization: **
+**NOTE: In order to run WSL2 on a HYPER-V virtual machine, enable Nested Virtualization:**
 
 * run PowerShell as administrator: `Set-VMProcessor <VIRTUALMACHINENAME> -ExposeVirtualizationExtensions $true`
 
