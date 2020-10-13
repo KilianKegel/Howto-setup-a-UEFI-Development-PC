@@ -14,7 +14,9 @@
    i. for old build process: ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi<br>
    ii.for new build process: ver 3.7 https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe<br>
    NOTE: If Python is installed from the Microsoft AppStore it can not be de-installed anymore!
-#### 6. install Netwide Assembler ver. 2.13 to C:\NASM (NOTE: change default installation path) -> 
+#### 6. install Netwide Assembler ver. 2.13 to C:\NASM 
+
+**NOTE: change default installation path to C:\NASM**
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
    
