@@ -30,17 +30,19 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
 #### 8. install BeyondCompare -> http://www.scootersoftware.com/BCompare-4.3.7.25118.exe<br>
 #### 9. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi
 add to `%USERPROFILE%\.gitconfig`:<br>
-* `[diff]`<br>
-* `  tool = bc4`<br>
-* `[difftool "bc4"]`<br>
-* `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\"`<br>
-* `[difftool]`<br>
-* `  prompt = false`<br>
-* `[merge]`<br>
-* `  tool = bc4`<br>
-* `[mergetool "bc4"]`<br>
-* `  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"`<br>
-* `  trustExitCode = true`<br>
+```
+[diff]
+  tool = bc4
+[difftool "bc4"]
+  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\"
+[difftool]
+  prompt = false
+[merge]
+  tool = bc4
+[mergetool "bc4"]
+  cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+  trustExitCode = true
+```
 #### 10. install Acrobat Reader DC  -> https://get.adobe.com/reader/otherversions/<br>
 #### 11. install compression tools<br>
    i. WinRar -> https://www.rarlab.com/rar/winrar-x64-571.exe<br>
@@ -79,6 +81,15 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 	```
 	BGINFO64.EXE /timer:0
 	```
+#### lastly: adjust PATH variable
+1: windows-R -> control.exe -> User Accounts -> Change my environment variables<br>
+2. add:<br>
+```
+c:\progra~1\beyond~1
+c:\progra~1\winrar
+c:\progra~1\7-zip
+c:\progra~2\teraterm
+```
 
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
