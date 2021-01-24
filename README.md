@@ -74,6 +74,11 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 #### 20. install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
 #### 21. install GIMP https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.22-setup.exe
 #### 22. install BGINFO https://download.sysinternals.com/files/BGInfo.zip
+* copy BGINFO64.EXE to %USERPROFILE%\AppData\Local\Microsoft\WindowsApps
+* create %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\BGINFO.BAT that contains:
+```
+BGINFO64.EXE /timer:0
+```
 
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
