@@ -76,9 +76,9 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 #### 22. install BGINFO https://download.sysinternals.com/files/BGInfo.zip
 * copy BGINFO64.EXE to %USERPROFILE%\AppData\Local\Microsoft\WindowsApps
 * create %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\BGINFO.BAT that contains:
-```
-BGINFO64.EXE /timer:0
-```
+	```
+	BGINFO64.EXE /timer:0
+	```
 
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
