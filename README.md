@@ -94,4 +94,5 @@ c:\progra~2\teraterm
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
 * WDK 7.1.0: http://download.microsoft.com/download/4/a/2/4a25c7d5-efbe-4182-b6a9-ae6850409a78/grmwdk_en_7600_1.iso <br>
+* MICROSOFT ENTERPRISE WINDOWS DRIVER KIT: https://go.microsoft.com/fwlink/p/?LinkID=846038
 
