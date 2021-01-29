@@ -81,6 +81,8 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 	```
 	BGINFO64.EXE /timer:0
 	```
+#### 23. install File Commander FCW https://www.heise.de/download/product/file-commander-7157/download/danke?id=7157-1
+
 #### lastly: adjust PATH variable
 1: windows-R -> control.exe -> User Accounts -> Change my environment variables<br>
 2. add to PATH:<br>
@@ -89,6 +91,7 @@ c:\progra~1\beyond~1
 c:\progra~1\winrar
 c:\progra~1\7-zip
 c:\progra~2\teraterm
+c:\progra~2\FILECO~1
 ```
 
 ### vintage DDK
