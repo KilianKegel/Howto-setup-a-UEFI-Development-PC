@@ -87,11 +87,12 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 1: windows-R -> control.exe -> User Accounts -> Change my environment variables<br>
 2. add to PATH:<br>
 ```
-c:\progra~1\beyond~1
-c:\progra~1\winrar
-c:\progra~1\7-zip
-c:\progra~2\teraterm
-c:\progra~2\FILECO~1
+c:\progra~1\beyond~1                           --> bcompare.exe
+c:\progra~1\winrar                             --> rar.exe
+c:\progra~1\7-zip                              --> 7z.exe
+c:\progra~2\teraterm                           --> ttermpro.exe
+c:\progra~2\FILECO~1                           --> fcw.exe
+c:\progra~2\MICROS~2\2019\COMMUN~1\Common7\ide --> devenv.exe
 ```
 
 ### vintage DDK
