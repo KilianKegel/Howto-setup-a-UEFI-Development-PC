@@ -94,6 +94,9 @@ c:\progra~2\teraterm                           --> ttermpro.exe
 c:\progra~2\FILECO~1                           --> fcw.exe
 c:\progra~2\MICROS~2\2019\COMMUN~1\Common7\ide --> devenv.exe
 ```
+```
+c:\progra~1\beyond~1;c:\progra~1\winrar;c:\progra~1\7-zip;c:\progra~2\teraterm;c:\progra~2\FILECO~1;c:\progra~2\MICROS~2\2019\COMMUN~1\Common7\ide
+```
 
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
