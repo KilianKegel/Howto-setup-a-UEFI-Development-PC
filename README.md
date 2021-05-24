@@ -63,7 +63,7 @@ add to `%USERPROFILE%\.gitconfig`:<br>
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 	
-**NOTE: In order to start WSL2 you have to run as an admnistrator:**
+**NOTE: In order to start WSL2 you have to run as an administrator:**
 `bcdedit /set hypervisorlaunchtype auto`
 	
 * download install script:<br>
