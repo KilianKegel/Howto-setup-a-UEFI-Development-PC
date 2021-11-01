@@ -1,10 +1,10 @@
 # HowTo-setup-an-UEFI-Development-PC
 
-#### 1. install a Windows 10 64 PC<br>
-   i.  get `MediaCreationTool` https://go.microsoft.com/fwlink/?LinkId=691209 and download Win10<br>
-#### 2. install Visual Studio 2019<br>
-   https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes<br>
-   ![installselection2019](VS2019-components.png)
+#### 1. install a Windows 11 PC<br>
+   i.  get `MediaCreationTool` https://go.microsoft.com/fwlink/?linkid=2156295 and download Windows 11<br>
+#### 2. install Visual Studio 2022<br>
+   https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes<br>
+   ![installselection2022](VS2022-components.png)
    
    **NOTE: For [Visual-Studio-for-UEFI-Shell](https://github.com/KilianKegel/Visual-Studio-for-UEFI-Shell)-only development you can stop the installation here**
    
@@ -23,7 +23,7 @@
 #### 7. install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
 **Windows 8.1 SDK** is provided in the Microsoft SDK archive at:<br> https://developer.microsoft.com/en-us/windows/downloads/sdk-archive, <br>or direct link: <br>
 https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
-   NOTE: **Windows 8.1 SDK** is removed from VS2019, but still available with VS2017. VS2017 itself is not available
+   NOTE: **Windows 8.1 SDK** is removed from VS2022, but still available with VS2017. VS2017 itself is not available
    anymore for free.
    
 ## Nice to have / optional
