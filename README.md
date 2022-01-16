@@ -3,7 +3,8 @@
 #### 1. install a Windows 11 PC<br>
    i.  get `MediaCreationTool` https://go.microsoft.com/fwlink/?linkid=2156295 and download Windows 11<br>
 #### 2. install Visual Studio 2022<br>
-   https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes<br>
+   1. download: https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes<br>
+   2. configure setup:
    ![installselection2022](VS2022-components.png)
    
    **NOTE: For [Visual-Studio-for-UEFI-Shell](https://github.com/KilianKegel/Visual-Studio-for-UEFI-Shell)-only development you can stop the installation here**
