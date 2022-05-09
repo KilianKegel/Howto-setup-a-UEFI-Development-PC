@@ -1,35 +1,44 @@
 # HowTo-setup-an-UEFI-Development-PC
+NOTE: To build all projects from https://github.com/KilianKegel the tools below are absolutely needed
+* NASM
+* ASL
+* Windows 8.1 SDK (for  EDK2020-MinnowBoard)
+* FLEX/BISON (for the Visual-ACPICA-for-UEFI-Shell project)
 
-#### 1. install a Windows 11 PC<br>
-   i.  get `MediaCreationTool` https://go.microsoft.com/fwlink/?linkid=2156295 and download Windows 11<br>
-#### 2. install Visual Studio 2022<br>
+### Install a Windows 11/10 PC<br>
+   *  get `MediaCreationTool` https://go.microsoft.com/fwlink/?linkid=2156295 and download Windows 11<br>
+   	or
+   *  get `MediaCreationTool` https://go.microsoft.com/fwlink/?LinkId=691209 and download Windows 10<br>
+### Install Visual Studio 2022<br>
    1. download: https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes<br>
    2. configure setup:
    ![installselection2022](VS2022-components.png)
    
-   **NOTE: For [Visual-Studio-for-UEFI-Shell](https://github.com/KilianKegel/Visual-Studio-for-UEFI-Shell)-only development you can stop the installation here**
-   
-#### 3. install GIT: https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-64-bit.exe<br>
-#### 4. install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
-#### 5. install Python<br>
+### Install GIT: https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-64-bit.exe<br>
+### Install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
+### Install Python<br>
    i. for old build process: ver 2.7 to C:\Python27 -> https://www.python.org/ftp/python/2.7/python-2.7.amd64.msi<br>
    ii.for new build process: ver 3.7 https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe<br>
    NOTE: If Python is installed from the Microsoft AppStore it can not be de-installed anymore!
-#### 6. install Netwide Assembler ver. 2.13 to C:\NASM 
+### Install Netwide Assembler ver. 2.13 to C:\NASM 
 
 **NOTE: change default installation path to C:\NASM**
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
    
-#### 7. install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
+### Install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
 **Windows 8.1 SDK** is provided in the Microsoft SDK archive at:<br> https://developer.microsoft.com/en-us/windows/downloads/sdk-archive, <br>or direct link: <br>
 https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    NOTE: **Windows 8.1 SDK** is removed from VS2022, but still available with VS2017. VS2017 itself is not available
    anymore for free.
+
+### Install FLEX/BISON, needed for the ACPI/ACPICA project<br>
+https://acpica.org/downloads/windows-source<br>
+
    
 ## Nice to have / optional
-#### 8. install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.4.2.26348.exe<br>
-#### 9. install tortoiseGIT: https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi
+### Install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.4.2.26348.exe<br>
+### Install tortoiseGIT: https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi
 add to `%USERPROFILE%\.gitconfig`:<br>
 ```
 [diff]
@@ -44,16 +53,16 @@ add to `%USERPROFILE%\.gitconfig`:<br>
   cmd = \"C:\\Program Files\\Beyond Compare 4\\BCompare.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
   trustExitCode = true
 ```
-#### 10. install Acrobat Reader DC  -> https://get.adobe.com/reader/otherversions/<br>
-#### 11. install compression tools<br>
+### Install Acrobat Reader DC  -> https://get.adobe.com/reader/otherversions/<br>
+### Install compression tools<br>
    i. WinRar -> https://www.rarlab.com/rar/winrar-x64-571.exe<br>
    ii. 7Zip -> https://www.7-zip.org/a/7z1900-x64.exe<br>
-#### 12. install FTDI serial-USB driver -> https://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip<br>
-#### 13. install TeraTerm -> https://ttssh2.osdn.jp/index.html.en<br>
-#### 14. install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
+### Install FTDI serial-USB driver -> https://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip<br>
+### Install TeraTerm -> https://ttssh2.osdn.jp/index.html.en<br>
+### Install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
-#### 15. install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
-#### 16. install Windows Subsystem for Linux WSL2 / Ubuntu 20.04
+### Install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
+### Install Windows Subsystem for Linux WSL2 / Ubuntu 20.04
 
 **NOTE: In order to run WSL2 on a HYPER-V virtual machine, enable Nested Virtualization on the Hyper-V Manager for this particular virtual machine, while the VM is in OFF state:**
 
@@ -72,19 +81,19 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 * set x attribute: `chmod +x install.sh`
 * run `./install.sh`
 	
-#### 18. disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
-#### 19. install yED https://www.yworks.com/products/yed/download
-#### 20. install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
-#### 21. install GIMP https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.22-setup.exe
-#### 22. install BGINFO https://download.sysinternals.com/files/BGInfo.zip
+### Disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
+### Install yED https://www.yworks.com/products/yed/download
+### Install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
+### Install GIMP https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.22-setup.exe
+### Install BGINFO https://download.sysinternals.com/files/BGInfo.zip
 * copy BGINFO64.EXE to %USERPROFILE%\AppData\Local\Microsoft\WindowsApps
 * create %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\BGINFO.BAT that contains:
 	```
 	BGINFO64.EXE /timer:0
 	```
-#### 23. install File Commander FCW https://www.heise.de/download/product/file-commander-7157/download/danke?id=7157-1
+### Install File Commander FCW https://www.heise.de/download/product/file-commander-7157/download/danke?id=7157-1
 
-#### lastly: adjust PATH variable
+#### finally: adjust PATH variable
 1: windows-R -> control.exe -> User Accounts -> Change my environment variables<br>
 2. add to PATH:<br>
 ```
@@ -93,7 +102,7 @@ c:\progra~1\winrar                             --> rar.exe
 c:\progra~1\7-zip                              --> 7z.exe
 c:\progra~2\teraterm                           --> ttermpro.exe
 c:\progra~2\FILECO~1                           --> fcw.exe
-c:\progra~2\MICROS~2\2019\COMMUN~1\Common7\ide --> devenv.exe
+c:\progra~1\MICROS~1\2022\COMMUN~1\Common7\ide --> devenv.exe
 ```
 ```
 c:\progra~1\beyond~1;c:\progra~1\winrar;c:\progra~1\7-zip;c:\progra~2\teraterm;c:\progra~2\FILECO~1;c:\progra~2\MICROS~2\2019\COMMUN~1\Common7\ide
