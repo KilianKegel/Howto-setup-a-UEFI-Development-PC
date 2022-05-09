@@ -32,8 +32,9 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    NOTE: **Windows 8.1 SDK** is removed from VS2022, but still available with VS2017. VS2017 itself is not available
    anymore for free.
 
-### Install FLEX/BISON, needed for the ACPI/ACPICA project<br>
+### Install FLEX/BISON to C:\GnuWin32\bin, needed for the ACPI/ACPICA project<br>
 https://acpica.org/downloads/windows-source<br>
+   i. add **C:\GnuWin32\bin** to [path](README.md#finally-adjust-path-variable)
 
    
 ## Nice to have / optional
@@ -94,6 +95,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 ### Install File Commander FCW https://www.heise.de/download/product/file-commander-7157/download/danke?id=7157-1
 
 #### finally: adjust PATH variable
+![envedit.png](envedit.png)
 1: windows-R -> control.exe -> User Accounts -> Change my environment variables<br>
 2. add to PATH:<br>
 ```
@@ -103,11 +105,8 @@ c:\progra~1\7-zip                              --> 7z.exe
 c:\progra~2\teraterm                           --> ttermpro.exe
 c:\progra~2\FILECO~1                           --> fcw.exe
 c:\progra~1\MICROS~1\2022\COMMUN~1\Common7\ide --> devenv.exe
+c:\GnuWin32\bin                                --> FLEX/BISON
 ```
-```
-c:\progra~1\beyond~1;c:\progra~1\winrar;c:\progra~1\7-zip;c:\progra~2\teraterm;c:\progra~2\FILECO~1;c:\progra~2\MICROS~2\2019\COMMUN~1\Common7\ide
-```
-
 ### vintage DDK
 * Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
 * WDK 7.1.0: http://download.microsoft.com/download/4/a/2/4a25c7d5-efbe-4182-b6a9-ae6850409a78/grmwdk_en_7600_1.iso <br>
