@@ -1,5 +1,5 @@
 # HowTo-setup-an-UEFI-Development-PC
-NOTE: To build all projects from https://github.com/KilianKegel the tools below are absolutely needed
+**NOTE:** To build all projects from https://github.com/KilianKegel the tools below are absolutely needed
 * NASM
 * ASL
 * Windows 8.1 SDK (for  EDK2020-MinnowBoard)
