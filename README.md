@@ -19,11 +19,11 @@
 ## Install Python https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe<br>
    
    NOTE: If Python is installed from the Microsoft AppStore it can not be de-installed anymore!
-## Install Netwide Assembler ver. 2.13 to C:\NASM 
+## Install Netwide Assembler ver. 2.15.05 to C:\NASM 
 
 **NOTE: change default installation path to C:\NASM**
 
-   https://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-installer-x64.exe
+   https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/win64/nasm-2.15.05-installer-x64.exe
    
 ## Install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
 **Windows 8.1 SDK** is provided in the Microsoft SDK archive at:<br> https://developer.microsoft.com/en-us/windows/downloads/sdk-archive, <br>or direct link: <br>
