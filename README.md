@@ -94,7 +94,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 ## Install File Commander FCW https://www.heise.de/download/product/file-commander-7157/download/danke?id=7157-1
 
 ### finally: adjust PATH variable
-![envedit.png](envedit.png)
+![envedit.png](envedit.png)<br>
 1: windows-R -> control.exe -> User Accounts -> Change my environment variables<br>
 2. add to PATH:<br>
 ```
