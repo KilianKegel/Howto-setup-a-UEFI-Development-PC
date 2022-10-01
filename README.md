@@ -9,6 +9,11 @@
    *  get `MediaCreationTool` https://go.microsoft.com/fwlink/?linkid=2156295 and download Windows 11<br>
    	or
    *  get `MediaCreationTool` https://go.microsoft.com/fwlink/?LinkId=691209 and download Windows 10<br>
+### Windows 11 configuration hint
+   1. Restore Classic (Full) Context Menu in Windows<br>
+      run in command prompt window:<br>
+      `reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32 /ve /d "" /f`<br>
+
 ## Install Visual Studio 2022<br>
    1. download: https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes<br>
    2. configure setup:
