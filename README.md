@@ -86,7 +86,13 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 * set x attribute: `chmod +x install.sh`
 * run `./install.sh`
 	
-## Disable Microsoft Defender: Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1
+## Disable Microsoft Defender: 
+### Windows 10: 
+1. ```Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1```
+### Windows 11: 
+1. Windows security: Tamper Protection: DISABLE
+2. ```GPEDIT.MSC -> Administrative Templates\Windows Components\Microsoft Defender Antivirus\Turn off Microsoft Defender Antivirus = Enabled```
+
 ## Install yED https://www.yworks.com/products/yed/download
 ## Install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
 ## Install GIMP https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.22-setup.exe
