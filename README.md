@@ -118,9 +118,9 @@ c:\progra~1\MICROS~1\2022\COMMUN~1\Common7\ide --> devenv.exe
 c:\GnuWin32\bin                                --> FLEX/BISON
 ```
 ### Vintage DDK
-* Windows Server 2003 SP1 DDK: http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso<br>
-* WDK 7.1.0: http://download.microsoft.com/download/4/a/2/4a25c7d5-efbe-4182-b6a9-ae6850409a78/grmwdk_en_7600_1.iso <br>
-* MICROSOFT ENTERPRISE WINDOWS DRIVER KIT: https://go.microsoft.com/fwlink/p/?LinkID=846038
+* [Windows Server 2003 SP1 DDK](http://download.microsoft.com/download/9/0/f/90f019ac-8243-48d3-91cf-81fc4093ecfd/1830_usa_ddk.iso)
+* [WDK 7.1.0](http://download.microsoft.com/download/4/a/2/4a25c7d5-efbe-4182-b6a9-ae6850409a78/grmwdk_en_7600_1.iso)
+* [EnterpriseWDK_rs2_release_15063_20170317-1834](https://go.microsoft.com/fwlink/p/?LinkID=846038)
 ### Microsoft DDK download page
 * [Download the Windows Driver Kit (WDK)](https://learn.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk)
 * [Other WDK downloads](https://learn.microsoft.com/en-us/windows-hardware/drivers/other-wdk-downloads)
