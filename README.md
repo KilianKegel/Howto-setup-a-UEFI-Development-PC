@@ -46,7 +46,7 @@ https://acpica.org/downloads/windows-source<br>
 
    
 # Nice to have / optional
-## Install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.4.2.26348.exe<br>
+## Install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.4.6.27483.exe<br>
 ## Install tortoiseGIT: https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi
 add to `%USERPROFILE%\.gitconfig`:<br>
 ```
