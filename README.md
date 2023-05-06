@@ -36,6 +36,10 @@ https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    NOTE: **Windows 8.1 SDK** is removed from VS2022, but still available with VS2017. VS2017 itself is not available
    anymore for free.
 
+   NOTE: **Windows 8.1 SDK** is just needed to solve one single issue: Provide Ressource Compiler **RC.EXE** to EDK2 build process.
+   Environment variables `WINSDK81x86_PREFIX` and `WINSDK81_PREFIX` are in use in EDK2 build, and could be adjusted to use newer SDK too...
+   ![installselectionWindows8.1SDK](Windows8.1SDK.png)
+
 ## Install FLEX/BISON to C:\GnuWin32\bin, needed for the ACPI/ACPICA project<br>
 https://acpica.org/downloads/windows-source<br>
    i. add **C:\GnuWin32\bin** to [path](README.md#finally-adjust-path-variable)
