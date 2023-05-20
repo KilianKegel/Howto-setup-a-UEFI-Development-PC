@@ -81,7 +81,10 @@ add to `%USERPROFILE%\.gitconfig`:<br>
 ![HyperVMgmt](HyperVMgmt.png)
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
-	
+
+![ubuntuInstall1](https://github.com/KilianKegel/pictures/blob/master/ubuntuInstall.png)
+![ubuntuInstall2](https://github.com/KilianKegel/pictures/blob/master/ubuntuInstall2.png)
+
 **NOTE: In order to start WSL2 you have to run as an administrator:**
 `bcdedit /set hypervisorlaunchtype auto`
 	
