@@ -47,7 +47,7 @@ https://acpica.org/downloads/windows-source<br>
    
 # Nice to have / optional
 ## Install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.4.6.27483.exe<br>
-## Install tortoiseGIT: https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi
+## Install tortoiseGIT: https://download.tortoisegit.org/tgit/2.14.0.0/TortoiseGit-2.14.0.1-64bit.msi<br>
 add to `%USERPROFILE%\.gitconfig`:<br>
 ```
 [diff]
@@ -71,7 +71,7 @@ add to `%USERPROFILE%\.gitconfig`:<br>
 ## Install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
    install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
 ## Install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
-## Install Windows Subsystem for Linux WSL2 / Ubuntu 20.04
+## Install Windows Subsystem for Linux WSL2 / Ubuntu 22.04.2
 
 **NOTE: In order to run WSL2 on a HYPER-V virtual machine, enable Nested Virtualization on the Hyper-V Manager for this particular virtual machine, while the VM is in OFF state:**
 
