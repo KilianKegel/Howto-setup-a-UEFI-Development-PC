@@ -69,7 +69,7 @@ add to `%USERPROFILE%\.gitconfig`:<br>
 ## Install FTDI serial-USB driver -> https://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip<br>
 ## Install TeraTerm -> https://ttssh2.osdn.jp/index.html.en<br>
 ## Install DoxyGen -> https://sourceforge.net/projects/doxygen/files/latest/download<br>
-   install HTML Help Workshop -> https://www.microsoft.com/en-us/download/confirmation.aspx?id=21138&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1
+
 ## Install Latex -> https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64
 ## Install Windows Subsystem for Linux WSL2 / Ubuntu 22.04.2
 
