@@ -1,4 +1,4 @@
-# HowTo-setup-an-UEFI-Development-PC
+# Howto-setup-a-UEFI-Development-PC
 **NOTE:** To build all projects from https://github.com/KilianKegel the tools below are absolutely needed
 * NASM
 * ASL
