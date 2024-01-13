@@ -4,6 +4,38 @@
 * ASL
 * Windows 8.1 SDK (for  EDK2020-MinnowBoard)
 * FLEX/BISON (for the Visual-ACPICA-for-UEFI-Shell project)
+## Preparation for upcoming *PORTABLE* programming projects
+**NOTE:** To avoid build failure due to incomplete installed or wrongly configured build machine, 
+upcoming and updated projects run their build tools within the project folder.<br>
+The build tools are installed and initialized when starting **LAUNCH.BAT** the first time.
+
+Currently the tools listed below are in use:
+* [wget.exe](https://eternallybored.org/misc/wget/1.21.3/64/wget.exe), **WGET** to download missing tools at initial **LAUNCH.BAT**, <br>or manually via https://www.google.com/search?q=download+WGET+windows+binary
+* [EnterpriseWDK_rs2_release_15063_20170317-1834.zip](https://go.microsoft.com/fwlink/p/?LinkID=846038), **Microsoft EWDK1703**
+* [nasm-2.16.01-win64.zip](https://www.nasm.us/pub/nasm/releasebuilds/2.16.01/win64/nasm-2.16.01-win64.zip), **NASM** assembler
+* [python-3.10.11-embed-win64.zip](https://www.python.org/ftp/python/3.10.11/python-3.10.11-embed-amd64.zip), **PYTHON**
+* [openssl-1.0.2r-x64_86-win64.zip](https://indy.fulgan.com/SSL/openssl-1.0.2r-x64_86-win64.zip), **OPENSSL**
+* [iasl-win-20230628.zip](https://downloadmirror.intel.com/783546/iasl-win-20230628.zip), **Intel ASL compiler**
+* [flex-2.5.4a-1-bin.zip](https://downloads.sourceforge.net/project/gnuwin32/flex/2.5.4a-1/flex-2.5.4a-1-bin.zip), **lexical analyser generator**
+* [bison-2.4.1-bin.zip](https://downloads.sourceforge.net/project/gnuwin32/bison/2.4.1/bison-2.4.1-bin.zip), **parser generator**
+* [libintl-0.14.4-bin.zip](https://downloads.sourceforge.net/project/gnuwin32/libintl/0.14.4/libintl-0.14.4-bin.zip), **support DLL for FLEX/BISON**
+* [libiconv-1.9.2-1-bin.zip](https://downloads.sourceforge.net/project/gnuwin32/libiconv/1.9.2-1/libiconv-1.9.2-1-bin.zip), **support DLL for FLEX/BISON**
+* [regex-2.7-bin.zip](https://downloads.sourceforge.net/project/gnuwin32/regex/2.7/regex-2.7-bin.zip), **support DLL for FLEX/BISON**
+
+To avoid multiple, lengthy downloads the original images *can, optionally,* downloaded once to
+each build machine and stored in a folder, that is assigned to an *environment variable* **MYDOWNLOADS**.
+
+![MYDOWNLOADSfolder](https://github.com/KilianKegel/pictures/blob/master/MYDOWNLOADS.png)
+
+To do so, simply
+1. create a folder **MYDOWNLOADS**, e.g. run **"cmd /c MD %USERPROFILE%\MYDOWNLOADS"**
+2. windows-R -> control.exe -> User Accounts -> Change my environment variables
+3. create an *environment variable* **MYDOWNLOADS**, e.g. **MYDOWNLOADS=%USERPROFILE%\MYDOWNLOADS**:
+
+![envedit.png](envedit.png)<br>
+
+
+
 
 ## Install a Windows 11/10 PC<br>
    *  get `MediaCreationTool` https://go.microsoft.com/fwlink/?linkid=2156295 and download Windows 11<br>
