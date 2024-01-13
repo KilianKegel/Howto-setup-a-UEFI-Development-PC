@@ -4,9 +4,10 @@
 * ASL
 * Windows 8.1 SDK (for  EDK2020-MinnowBoard)
 * FLEX/BISON (for the Visual-ACPICA-for-UEFI-Shell project)
-## Preparation for upcoming *PORTABLE* programming projects
-**NOTE:** To avoid build failure due to incomplete installed or wrongly configured build machine, 
-upcoming and updated projects run their build tools within the project folder.<br>
+## Preparation for upcoming ***portable*** projects
+**NOTE:** To avoid build failure due to incomplete installed or wrongly configured build machines,<br> 
+upcoming and updated projects run their build tools within the project folder.
+
 The build tools are installed and initialized when starting **LAUNCH.BAT** the first time.
 
 Currently the tools listed below are in use:
