@@ -126,12 +126,36 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10
 * set x attribute: `chmod +x install.sh`
 * run `./install.sh`
 	
-## Disable Microsoft Defender: 
-### Windows 10: 
-1. ```Regedit -> HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\DisableAntiSpyware = 1```
-### Windows 11: 
-1. Windows security: Tamper Protection: DISABLE
-2. ```GPEDIT.MSC -> Administrative Templates\Windows Components\Microsoft Defender Antivirus\Turn off Microsoft Defender Antivirus = Enabled```
+## Disable Microsoft Defender
+If the build machine is physically protected from malware, it is possible to disable the virus protection completely
+to save energy and to speedup build process.
+
+Create `DEFDIS.REG` registry script below and run it on the platform:
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
+"DisableAntiVirus"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+"DisableRoutinelyTakenAction"=dword:00000001
+"DisableSpecialRunningModes"=dword:00000001
+"ServiceKeepAlive"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
+"DisableBehaviourMonitoring"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+"DisableScanOnRealtimeEnable"=dword:00000001
+"DisableOnAccessProtection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Signature Updates]
+"ForceUpdateFromMU"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet]
+"DisableBlockAtFirstSeen"=dword:00000001
+```
 
 ## Install yED https://www.yworks.com/products/yed/download
 ## Install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
