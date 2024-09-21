@@ -32,8 +32,11 @@ To do so, simply
 1. create a folder **MYDOWNLOADS**, e.g. run **"cmd /c MD %USERPROFILE%\MYDOWNLOADS"**
 2. windows-R -> control.exe -> User Accounts -> Change my environment variables
 3. create an *environment variable* **MYDOWNLOADS**, e.g. **MYDOWNLOADS=%USERPROFILE%\MYDOWNLOADS**:
+4. create an *environment variable* **MYUSBSHARE**, e.g. **MYUSBSHARE=F:\\** to automatically copy target files to an exchange drive per batch files or Visual Studio *build events*
 
 ![envedit.png](envedit.png)<br>
+
+
 
 
 
