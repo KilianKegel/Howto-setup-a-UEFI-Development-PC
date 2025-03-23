@@ -52,10 +52,10 @@ To do so, simply
 
 ## Install Visual Studio 2022<br>
    1. download: https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes<br>
-   2. configure setup:
+   2. configure setup (additional for **LLVM/CLANG support**):
    ![installselection2022](VS2022-components.png)
    
-## Install GIT: https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-64-bit.exe<br>
+## Install GIT: https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe<br>
 ## Install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
 ## Install Python https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe<br>
    
@@ -82,8 +82,8 @@ https://acpica.org/downloads/windows-source<br>
 
    
 # Nice to have / optional
-## Install BeyondCompare -> https://www.scootersoftware.com/BCompare-4.4.6.27483.exe<br>
-## Install tortoiseGIT: https://download.tortoisegit.org/tgit/2.14.0.0/TortoiseGit-2.14.0.1-64bit.msi<br>
+## Install BeyondCompare -> https://www.scootersoftware.com/files/BCompare-4.4.7.28397.exe<br>
+## Install tortoiseGIT: https://download.tortoisegit.org/tgit/2.17.0.0/TortoiseGit-2.17.0.2-64bit.msi<br>
 add to `%USERPROFILE%\.gitconfig`:<br>
 ```
 [diff]
