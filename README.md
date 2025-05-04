@@ -1,9 +1,10 @@
 # Howto-setup-a-UEFI-Development-PC
-**NOTE:** To build all projects from https://github.com/KilianKegel the tools below are absolutely needed
+**NOTE:** To build all projects from https://github.com/KilianKegel the tools below are  needed
 * NASM
 * ASL
 * Windows 8.1 SDK (for  EDK2020-MinnowBoard)
 * FLEX/BISON (for the Visual-ACPICA-for-UEFI-Shell project)
+
 ## Preparation for upcoming ***portable*** projects
 **NOTE:** To avoid build failure due to incomplete installed or wrongly configured build machines,<br> 
 upcoming and updated projects run their build tools within the project folder.
@@ -52,7 +53,7 @@ To do so, simply
 
 ## Install Visual Studio 2022<br>
    1. download: https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes<br>
-   2. configure setup (additional for **LLVM/CLANG support**):
+   2. configure setup (optional for **LLVM/CLANG support**):
    ![installselection2022](VS2022-components.png)
    
 ## Install GIT: https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe<br>
