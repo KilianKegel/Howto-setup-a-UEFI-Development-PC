@@ -155,6 +155,10 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet]
 "DisableBlockAtFirstSeen"=dword:00000001
 ```
+## Install "Intel C++ Compiler 2024" tool chain
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html
+
+**NOTE: Recent version doesn't include 32Bit support anymore**
 
 ## Install yED https://www.yworks.com/products/yed/download
 ## Install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
