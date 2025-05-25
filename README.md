@@ -2,7 +2,7 @@
 **NOTE:** To build all projects from https://github.com/KilianKegel the tools below are  needed
 * NASM
 * ASL
-* Windows 8.1 SDK (for  EDK2020-MinnowBoard)
+* *-obsolete-*: Windows 8.1 SDK (for  EDK2020-MinnowBoard)
 * FLEX/BISON (for the Visual-ACPICA-for-UEFI-Shell project)
 
 ## Preparation for upcoming ***portable*** projects
@@ -37,11 +37,6 @@ To do so, simply
 
 ![envedit.png](envedit.png)<br>
 
-
-
-
-
-
 ## Install a Windows 11/10 PC<br>
    *  get `MediaCreationTool` https://go.microsoft.com/fwlink/?linkid=2156295 and download Windows 11<br>
    	or
@@ -67,7 +62,7 @@ To do so, simply
 
    https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/win64/nasm-2.15.05-installer-x64.exe
    
-## Install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
+## *-obsolete-:* Install the **Windows 8.1 SDK**, needed for the VS2015 based EDK2 buildprocess.<br>
 **Windows 8.1 SDK** is provided in the Microsoft SDK archive at:<br> https://developer.microsoft.com/en-us/windows/downloads/sdk-archive, <br>or direct link: <br>
 https://go.microsoft.com/fwlink/p/?LinkId=323507<br>
    NOTE: **Windows 8.1 SDK** is removed from VS2022, but still available with VS2017. VS2017 itself is not available
