@@ -51,7 +51,7 @@ To do so, simply
    2. configure setup (optional for **LLVM/CLANG support**):
    ![installselection2022](VS2022-components.png)
    
-## Install GIT: https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe<br>
+## Install GIT: https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe<br>
 ## Install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
 ## Install Python https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe<br>
    
