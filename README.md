@@ -45,7 +45,7 @@ To do so, simply
    1. Restore Classic (Full) Context Menu in Windows<br>
       run in command prompt window:<br>
       `reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32 /ve /d "" /f`<br>
-
+### [Windows Professional Activation key](https://github.com/KilianKegel/remember/blob/master/Win10ProActivation.txt)
 ## Install Visual Studio 2022<br>
    1. download: https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes<br>
    2. configure setup (optional for **LLVM/CLANG support**):
