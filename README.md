@@ -51,7 +51,7 @@ To do so, simply
    ![](https://github.com/KilianKegel/pictures/blob/master/VS2026.png)
    1. download: https://visualstudio.microsoft.com/insiders<br>
    2. configure setup (optional for **LLVM/CLANG support**):
-   ![installselection2022](VS2022-components.png)
+   ![installselection2026](https://github.com/KilianKegel/pictures/blob/master/VS2026-components.png)
    
 ## Install GIT: https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe<br>
 ## Install/extract the ASL/ACPI compiler to C:\ASL -> https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
