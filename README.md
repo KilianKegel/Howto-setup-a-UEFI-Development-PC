@@ -58,7 +58,7 @@ reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpro
    ![installselection2026](https://github.com/KilianKegel/pictures/blob/master/VS2026-components.png)
 
 ## Install Git
-https://github.com/git-for-windows/git/releases/download/v2.50.1.windows.1/Git-2.50.1-64-bit.exe
+https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/Git-2.51.0.2-64-bit.exe
 
 ## Install / Extract the ASL / ACPI Compiler
 Extract to `C:\ASL` from: https://acpica.org/sites/acpica/files/iasl-win-20160527.zip
