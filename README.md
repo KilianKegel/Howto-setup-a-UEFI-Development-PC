@@ -47,7 +47,7 @@ To do so, simply
       `reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32 /ve /d "" /f`<br>
 ### [private: Windows Pro Activation key](https://github.com/KilianKegel/remember/blob/master/Win10ProActivation.md)
 ### [private: Windows Pro N and KN Activation key](https://github.com/KilianKegel/remember/blob/master/Win10ProNActivation.md)
-## Install Visual Studio 2026<br>
+## Install Visual Studio<br>
    ![](https://github.com/KilianKegel/pictures/blob/master/VS2026.png)
    1. download: https://visualstudio.microsoft.com/insiders<br>
    2. configure setup (optional for **LLVM/CLANG support**):
