@@ -51,7 +51,7 @@ reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpro
 * [private: Windows Pro N and KN Activation key](https://github.com/KilianKegel/remember/blob/master/Win10ProNActivation.md)
 
 ## Install Visual Studio
-![<img src="https://github.com/KilianKegel/pictures/blob/master/VS2026.png" width="800">](https://visualstudio.microsoft.com/insiders)
+[<img src="https://github.com/KilianKegel/pictures/blob/master/VS2026.png" width="400">](https://visualstudio.microsoft.com/insiders)
 1. [Download VS2026 Community Insider](https://aka.ms/vs/18/insiders/vs_Community.exe) 
 2. Configure setup (optional for LLVM/Clang support):
    ![installselection2026](https://github.com/KilianKegel/pictures/blob/master/VS2026-components.png)
