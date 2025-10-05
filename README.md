@@ -145,9 +145,11 @@ Windows Registry Editor Version 5.00
 ```
 
 ## Install Intel C++ Compiler 2024 Toolchain
-https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html
 
-NOTE: Recent versions no longer include 32-bit support.
+![]()
+[<img src="IntelOneAPIToolkit.png" width="1200">](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html)
+
+#### NOTE: oneAPI Toolkit runs on VS2022 and VS2019 only!
 
 ## Install yED https://www.yworks.com/products/yed/download
 ## Install QT http://download.qt.io/official_releases/qt/5.14/5.14.2/qt-opensource-windows-x86-5.14.2.exe
