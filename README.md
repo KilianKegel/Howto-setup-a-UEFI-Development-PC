@@ -66,6 +66,8 @@ Install to: `C:\GnuWin32\bin`
 Add `C:\GnuWin32\bin` to the PATH (see section: Adjust PATH Variable).
 
 # Nice to have / optional
+## Install [<img src="https://www.firefox.com/media/img/logos/firefox/logo-word-hor.f3b18871b657.svg"  width="150" height="150">](https://www.firefox.com/en-US/thanks/)
+
 ## Install BeyondCompare -> https://www.scootersoftware.com/files/BCompare-4.4.7.28397.exe<br>
 ## Install tortoiseGIT: https://download.tortoisegit.org/tgit/2.17.0.0/TortoiseGit-2.17.0.2-64bit.msi<br>
 add to `%USERPROFILE%\.gitconfig`:<br>
