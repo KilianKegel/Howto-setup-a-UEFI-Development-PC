@@ -67,12 +67,19 @@ Add `C:\GnuWin32\bin` to the PATH (see section: Adjust PATH Variable).
 
 # Nice to have / optional
 [<img src="https://www.firefox.com/media/img/logos/firefox/logo-word-hor.f3b18871b657.svg"  width="150" height="150">](https://www.firefox.com/en-US/thanks/)
+
 [<img src="https://www.scootersoftware.com/bc_icon.png"  width="50" height="50">](https://www.scootersoftware.com/files/BCompare-4.4.7.28397.exe)
+
 [<img src="https://tortoisegit.org/images/apple-touch-icon.png"  width="50" height="50">](https://download.tortoisegit.org/tgit/2.17.0.0/TortoiseGit-2.17.0.2-64bit.msi)
+
 [<img src="https://get.adobe.com/reader/40b1c37bc2/images/adobe_logo.png"  width="50" height="50">](https://get.adobe.com/reader/otherversions)
+
 [<img src="https://www.win-rar.com/uploads/pics/rar-archive_50.png"  width="50" height="50">](https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-713.exe)
 
 [<img src="https://www.7-zip.org/7ziplogo.png"  width="50" height="50">](https://www.7-zip.org/a/7z2501-x64.msi)
+
+[<img src="https://teratermproject.github.io/images/teraterm.png"  width="50" height="50">](https://github.com/TeraTermProject/teraterm/releases/download/v5.5.1/teraterm-5.5.1-x64.exe)
+
 
 
 
