@@ -59,10 +59,9 @@ reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpro
 ## Install Git
 [<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg"  width="150" height="150">](https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/Git-2.51.0.2-64-bit.exe)
 
-
-
-
 ## Install FLEX / BISON (needed for ACPI / ACPICA project)
+**NOTE: This tools are automatically installed with the ***portable projects*** from this site**
+
 Install to: `C:\GnuWin32\bin`
 
 Add `C:\GnuWin32\bin` to the PATH (see section: Adjust PATH Variable).
