@@ -1,11 +1,4 @@
 # How to Set Up a UEFI Development PC
-
-**NOTE:** To build all projects from https://github.com/KilianKegel the tools below are needed:
-* NASM
-* ASL
-* *Obsolete:* Windows 8.1 SDK (for EDK2020-MinnowBoard)
-* FLEX / BISON (for the `Visual-ACPICA-for-UEFI-Shell` project)
-
 ## Preparation for ***Portable Projects***
 **NOTE:** To avoid build failures caused by incomplete or misconfigured build machines, upcoming and updated projects run their build tools locally within the project folder.
 
@@ -53,7 +46,8 @@ reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpro
 ## Install Visual Studio
 [<img src="https://github.com/KilianKegel/pictures/blob/master/VS2026.png" width="400">](https://visualstudio.microsoft.com/insiders)
 1. [Download VS2026 Community Insider](https://aka.ms/vs/18/insiders/vs_Community.exe) 
-2. Configure setup (optional for LLVM/Clang support):
+2. Configure **Desktop development with C++** workload and **Individual Components** (optional for LLVM/Clang support):<br>
+   
    ![installselection2026](https://github.com/KilianKegel/pictures/blob/master/VS2026-components.png)
 
 ## Install Git
