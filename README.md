@@ -68,8 +68,9 @@ reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpro
 
 [<img src="https://teratermproject.github.io/images/teraterm.png"  width="50" height="50">](https://github.com/TeraTermProject/teraterm/releases/download/v5.5.1/teraterm-5.5.1-x64.exe)
 
-[<img src="https://cdn.lo4d.com/t/icon/48/rw-read-write.png"  width="50" height="50">](https://rweverything.com/downloads/RwX64V1.7.zip) **RWEverything**<br>
-**Run as administrator and reboot  . . .**
+[<img src="https://cdn.lo4d.com/t/icon/48/rw-read-write.png"  width="50" height="50">](https://rweverything.com/downloads/RwX64V1.7.zip) **RWEverything**<br><br>
+
+**Run command below as administrator and reboot, to get RWEverything running in WIndows 11:**
 ```
 reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CI\Config /v VulnerableDriverBlocklistEnable /t REG_DWORD /d 0 /f
 ```
