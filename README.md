@@ -42,6 +42,7 @@ reg add HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpro
 
 * [private: Windows Pro Activation key](https://github.com/KilianKegel/remember/blob/master/Win10ProActivation.md)
 * [private: Windows Pro N and KN Activation key](https://github.com/KilianKegel/remember/blob/master/Win10ProNActivation.md)
+* [private: Beyond Compare Activation key](https://github.com/KilianKegel/remember/blob/master/BeyonCompareActivation.md)
 
 ## Install Visual Studio
 [<img src="https://github.com/KilianKegel/pictures/blob/master/VS2026.png" width="400">](https://visualstudio.microsoft.com/insiders)
